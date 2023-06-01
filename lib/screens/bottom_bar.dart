@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:ticket_it/screens/home_screen.dart';
+import 'package:ticket_it/screens/profile_screen.dart';
 import 'package:ticket_it/screens/search_screen.dart';
 import 'package:ticket_it/screens/ticket_screen.dart';
 
@@ -19,7 +20,7 @@ class _BottomBarState extends State<BottomBar> {
     const HomeScreen(),
     const SearchScreen(),
     const TicketScreen(),
-    const Text("account")
+    const ProfileScreen()
   ];
 
   void _onItemTapped(int index) {
